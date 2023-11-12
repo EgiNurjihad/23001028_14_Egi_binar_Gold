@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #F1F3FF !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.nav-container {
+    display: flex;
+    padding: 0px 4% ;
+    /* width: 1074px; */
+}
+
+.logo {
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.offcanvas{
+    width: 15rem !important;
+}
+
+
+@media (max-width: 568px) {
+
+    .navbar {
+        position: relative;
+    }
+    .nav-container {
+        width: 100% !important;
+    }
+}

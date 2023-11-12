@@ -1,0 +1,148 @@
+#root {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+/* @media screen and (max-width: 568px) {
+
+
+  .container-navbar .nav-list a {
+      display: none;
+  }
+
+  #hamburger-menu {
+      display: inline-block;
+  }
+
+  .container-navbar {
+      padding: 20px;
+  }
+
+  .home {
+      flex-wrap: wrap;
+      padding: 20px;
+  }
+
+  .home .home-detail h1 {
+      width: 328px;
+  }
+
+  .home .home-detail p {
+      width: 328px;
+  }
+
+  .home .home-img {
+      height: 300px;
+  }
+
+  .home-img .home-car {
+      height: 20%;
+  }
+
+  .home-img .home-car img {
+      width: 90%;
+      left: 10px;
+      top: -80px;
+  }
+
+  .service {
+      flex-wrap: wrap;
+      padding: 20px;
+  }
+
+  .img-service img {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+  }
+
+  .reason {
+      padding: 20px;
+  }
+  .reason .reason-list {
+      flex-wrap: wrap;
+  }
+
+  .reason .reason-list .list-items {
+      width: 100%;
+  }
+
+
+  .testimoni .detail {
+      width: 328px;
+      text-align: start;
+      padding: 20px;
+      margin: 0;
+  }
+
+  .testimoni .testi-users {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .testimoni .testi-users .user {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0 50px;
+      gap: 24px;       
+  }
+  
+  .testimoni .testi-users .user img {
+      padding: 0 32px;
+  }
+  
+  .testimoni .testi-users .user .user-stars {
+      text-align: center;
+  }
+  
+  .testimoni .testi-users .user .user-content p {
+      width: 328px;
+  }
+
+  .rent-container {
+      padding: 64px;
+      margin: 0 15px;
+      gap: 32px;
+      height: auto;
+  }
+
+  .rent-container h2,
+  .rent-container p {
+      width: 212px;
+  }
+
+  .rent-container a {
+      margin-bottom: 30px;
+  }
+
+  .form .second-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 328px;
+      margin: 0 auto;
+      text-align: center;
+      overflow: hidden;
+  }
+
+  .form .select {
+      width: 100% !important;
+      margin-right: 10px;
+  }
+
+  .footer {
+      display: inline-block;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 20px;
+      width: 328px;
+  }
+
+} */

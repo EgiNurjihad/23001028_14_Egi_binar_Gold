@@ -1,0 +1,138 @@
+.search {
+    height: 106px;
+    transition: background-color 0.3s ease-in-out;
+    /* margin-bottom: 0px; */
+}
+
+.search.filled {
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    z-index: 9999; /* Atur warna latar belakang saat formulir diisi */
+  }
+
+.search-container {
+    width: 1047px;
+    /* width: 100vh; */
+}
+
+.search-container .form-grups {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    display: flex;
+    align-items: end;
+    width: 1000px;
+    height: 106px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 16px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.search-container .input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+
+.search-container .input-box p {
+    margin: 0;
+}
+
+.search-container .input-box select{
+    color: #444;
+}
+
+.search-container .input-box input,
+select {
+    height: 36px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.search-container .form-grups .btn {
+    display: inline-flex;
+    width: 40%;
+    height: 36px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #5CB85F;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.result {
+    width: 1047px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 24px;
+    /* margin-bottom: 100px; */
+    /* height: 100vh; */
+}
+
+.result .result-items {
+    width: 333px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 8px;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.result .result-items .card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.result .result-items .card-item img {
+    width: 270px;
+    height: 160px;
+}
+
+.result .result-items .detail-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 8px;
+}
+
+.result .result-items .detail-item span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: black;
+}
+
+.result .result-items .detail-item h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.result .result-items button {
+    background-color: #5CB85F;
+    width: 100%;
+    padding: 8px 12px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    border: none;
+    gap: 12px;
+}

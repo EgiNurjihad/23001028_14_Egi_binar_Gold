@@ -1,0 +1,27 @@
+.form {
+    width: 1100px;
+    margin: 100px auto;
+    font-weight: 700;
+}
+
+.form .second-container h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    .form .second-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 328px;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .form .select {
+        width: 100% !important;
+        margin-right: 10px;
+    }
+}
